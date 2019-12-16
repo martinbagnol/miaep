@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+  <title>Musée Itinérant d'Art (en) Plastique</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/hk-grotesk" type="text/css"/>
+  <link rel="stylesheet" href="main.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.js"></script>
+  <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1200);
+        return false;
+        }}});});
+  </script>
+</head>
+
+<body>
+<div id="nav">
+  <div class="wrapper">
+    <a href="index.html"><button id="tab_active">Accueil</button></a>
+    <a href="concept.html"><button>Concept</button></a>
+    <a href="itineraire.html"><button>Itinéraire</button></a>
+    <a href="about.html"><button>Infos pratiques</button></a>
+  </div>
+</div>
+
+<main class="page-content" aria-label="Content">
+  <div class="wrapper">
+
+    <div id="cover">
+      <div style="text-align: center;">
+        <img class="post-title" src="images/logo.png">
+        <h2></h2>
+      </div>
+    </div>
+
+    <div class="home"><div class="home-content">
+      <h2>Le Musée Itinérant d'Art (en) Plastique, c'est une série d'expositions dans toute la France pendant un an pour </h2>
+      <img src="images/truck.png">
+
+
+
+      <a href="phenomene.html"><button>Lire la première partie de notre exploration</button></a><br>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer h-card">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <p>Projet the great transition : <br>Musée Itinérant d'Art (en) Plastique</p>
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>Étudiants : Martin Bagnol, Charles-Eric de Benoît d'Entrevaux, Diane Dupont, Laura Eisenbach, Valentine Touchais</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

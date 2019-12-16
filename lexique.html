@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+  <title>Lexique</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/hk-grotesk" type="text/css"/>
+  <link rel="stylesheet" href="main.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.js"></script>
+  <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1200);
+        return false;
+        }}});});
+  </script>
+</head>
+
+<body>
+<div id="nav">
+  <div class="wrapper">
+    <a href="index.html"><button>Accueil</button></a>
+    <a href="phenomene.html"><button>Le phénomène des memes</button></a>
+    <a href="anatomie.html"><button>Anatomie et décryptage</button></a>
+    <a href="contenu.html"><button>Le contenu et les communautés</button></a>
+    <a href="interview.html"><button>Interview</button></a>
+    <a href="lexique.html"><button id="tab_active">Lexique</button></a>
+    <a href="conclusions.html"><button>Conclusion</button></a>
+  </div>
+</div>
+
+<main class="page-content" aria-label="Content">
+  <div class="wrapper"> 
+    <header class="post-header">
+     
+      <h1 class="post-title p-name" itemprop="name headline">Petit lexique des expressions utilisées dans la "Neurchisphère"</h1> 
+      <p><b></b></p>
+      
+    </header>
+
+    <div class="main-post-content"> 
+      <ul class="lexique">
+        <li> 
+          <h2>"Bap pun"</h2>
+          <p>Ce terme est utilisé pour désigner un jeu de mots volontairement absurde.</p>
+        </li>
+        <li>  
+          <h2>"Copypasta"</h2>
+          <span id="deepfriedmeme"></span>
+          <p>Ce terme, dans le cadre des groupes de memes, désigne le fait qu’un internaute ait “copié-collé” un texte ou un commentaire, sans apporter de plus-value à la discussion, souvent même sans aucun rapport et donc dans le but de spamer. Cette pratique était beaucoup utilisée sur 4Chan. Dans la “Neurchisphère”, les copypastas sont des commentaires devenus mythiques et donc ré-utilisés fréquemment.</p>
+        </li>
+        <li> 
+          <h2>"Deep fried meme"</h2>
+          <p>Ce terme est utilisé pour parler des memes sur lesquels on a apposé de nombreux filtres et augmenté la saturation des couleurs afin de réduire volontairement la qualité de l’image.</p>
+          <div class="illustration">
+            <img class="vertical" src="images/deepfriedmeme.png">
+          </div>
+        </li>
+        <li>  
+          <h2>"Meme lord"</h2>
+          <p>Le terme "meme lord" est utilisé pour désigner un internaute qui produit des memes jugés excellents par les autres membres du groupe.</p>
+        </li> 
+        <li>  
+          <h2>"Mute"</h2>
+          <p>Sur Facebook, le modérateur peut mettre en sourdine un membre du groupe ne respectant pas les règles établies pour une durée définie, souvent 7 jours. Cette sanction est souvent utilisée en cas de <i><u><a href="#tag">tag sauvage</a></u></i>, et peut aussi mener à un <i>ban</i> (exclusion définitive du groupe).</p>
+        </li> 
+        <li>
+          <h2 id="oc">"Normie"</h2>
+          <p>Terme péjoratif utilisé par les personnes anticonformistes pour désigner ceux qui s’en tiennent aux pratiques et standards jugés mainstream. Pour les membres des groupes de memes sur Facebook, tagger ses amis dans les commentaires d’une vidéo à l’humour très accessible — souvent accompagné de l’emoji “ 😂” ou de “ptdrrrr” — est une pratique typiquement normie.</p>
+        </li>
+        <li>
+          <h2>"OC"</h2>
+          <p>Vient de l’anglais “original content”. Ce terme est fréquemment utilisé pour indiquer que le meme a bien été créé par l’auteur de la publication, et non récupéré sur internet. Il est particulièrement utilisé sur Reddit. Les créateurs s’amusent souvent à attirer l’attention sur les lettres O et C dans leur publication. Exemples :</p>
+          <div class="illustration">
+            <img class="vertical" src="images/oc-1.png">
+            <span id="tag"></span>
+            <img class="vertical" src="images/oc-2.png">
+          </div>
+        </li>
+        <li>
+          <h2>"Tag sauvage"</h2>
+          <p>Consiste à identifier un ami Facebook dans les commentaires d’une publication pour la lui montrer, sans que le commentaire n’apporte de valeur ajoutée à la publication. Les tags sauvages sont formellement interdits dans la plupart des groupes de memes sur Facebook. Enfreindre la règle est généralement passible d’une exclusion du groupe, temporaire ou non. Exemple : (on remarquera que l’utilisateur a été exclu du groupe à cause de ce tag).</p>
+          <div class="illustration">
+            <img class="horizontal" src="images/tag-2.png">
+            <img class="horizontal" src="images/tag-1.jpg">
+          </div>
+        </li>
+        <li>
+          <h2>"Trend"</h2>
+          <p>Sur les groupes Facebook de memes, on remarque que le même <i>template</i> (l'image originelle du meme) est souvent utilisé fréquemment pendant une courte période puis progréssivement abandonné. On parle alors de <i>trend</i>, qui signifie "tendance" en français.</p>
+        </li>
+        <li>
+          <h2 id="tag">"Trois quarts (3/4)"</h2>
+          <p>Désigne simplement le fait d’enregistrer un meme que l’on trouve sur un groupe/une page et de le reposter ailleurs sans mentionner son origine. Exemple :</p>
+          <div class="illustration">
+            <img class="horizontal" src="images/troisquart.jpg">
+          </div>
+        </li>
+        <li>
+          <h2>"Stolen"</h2>
+          <p>Ce terme désigne simplement le fait d’enregistrer un meme que l’on trouve sur un groupe/une page et de le reposter ailleurs sans mentionner son origine. Parfois, les membres des groupes font preuve d'honnêteté et précisent "stolen sur [x]" dans leur publication.</p>
+          <div class="illustration">
+            <img class="vertical" src="images/stolen.jpg">
+          </div>
+        </li>
+        <li>
+          <h2>"Shitpost"</h2>
+          <p>Désigne les publications d’internautes ayant pour but de diriger la conversation vers un hors sujet (troll, spam…), avec du contenu souvent absurde. Le groupe Facebook de memes de Sciences Po est nommé <u><a href="https://www.facebook.com/groups/584700188392865/" target="blank">Sciences Po. Institute of Shitposting for Bourgeois Teens</a></u>.</p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer h-card">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <p>Cours Sociologie des mondes numériques, Sciences Po.<br>Décembre 2019.</p>
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>Étudiants : Martin Bagnol, Charles-Eric de Benoît d'Entrevaux, Diane Dupont, Laura Eisenbach, Valentine Touchais</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
